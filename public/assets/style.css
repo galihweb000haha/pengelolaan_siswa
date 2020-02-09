@@ -1,0 +1,62 @@
+.input{
+			display: block;
+			margin-top: 10px;
+		}
+		.pagination li{
+			float: left;
+			list-style: none;
+			margin: 5px;
+		}
+		nav{
+			display: block;			
+			width: 100%;
+			background-color: salmon;
+			height: 50px;	
+			color: #fff;		
+		}
+		nav ul{
+			line-height: 50px;
+		}
+		nav > ul > li{
+			list-style: none;
+			float: left;			
+		}
+		nav li{
+			list-style: none;
+			cursor: pointer;
+			width: 70px;
+			text-align: center;
+			transition: .5s;
+		}
+		nav a{
+			color: #fff;
+			text-decoration: none;
+		}
+		nav li:hover{
+			background-color: #ccc;
+		}
+		.clear{
+			clear: both;
+		}
+		.dropdown{			
+			margin: 0px;
+			padding: 0px;
+			display: none;
+			background-color: salmon;
+			position: absolute;
+		}
+		nav > ul > li:nth-child(3):hover .dropdown{
+			display: block;
+		}
+		h1{
+			text-align: center;
+		}
+		nav > ul > li:first-child{
+			width: 200px;
+			font-size: 15px;
+			font-weight: bold;
+			margin-right: 20px;
+		}
+		nav > ul > li:first-child:hover{
+			background-color: salmon;
+		}
